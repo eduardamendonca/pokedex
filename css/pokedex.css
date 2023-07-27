@@ -122,11 +122,21 @@
     text-align: center;
     filter: brightness(1.1);
 }
-
+.button{
+    color: none;
+    border: none;
+}
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
     align-self: flex-end;
+    color: none;
+    
+}
+.pokemon .detail img:hover{
+    height: 75px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .pagination {
